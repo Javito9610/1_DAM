@@ -1,0 +1,9 @@
+USE sakila;
+ALTER TABLE ACTOR
+ADD dateOfBirthactor date;
+ALTER TABLE ACTOR 
+CHANGE dateOfBirth yearOfBirth date;
+ALTER TABLE ACTOR 
+MODIFY COLUMN yearOfBirth SMALLINT(4);
+ALTER TABLE ACTOR 
+DROP yearOfBirth;

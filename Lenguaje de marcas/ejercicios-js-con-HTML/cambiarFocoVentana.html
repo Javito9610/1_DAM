@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar foco</title>
+    <script>
+        function focos(){
+          document.getElementById("crearVentana").onclick=crear
+          document.getElementById("cerrarVentana").onclick=cerrar
+          document.getElementById("cambiarFoco").onclick=cambiaFoco
+        }
+        let miVentana;
+        function crear(){
+            alert("Se ha creado una ventana emergente.")
+            miVentana=window.open("ventanaEmergentee.html","","width=800,height=600")
+        }
+        function cerrar(){
+            alert("Se ha cerrado la ventana emergente.")
+            miVentana.close();
+        }
+        function cambiaFoco(){
+            if(miVentana && !miVentana.closed){
+                let cambioAncho=window.screen.availWidth;
+                let cambioAlto=window.screen.availHeight;
+                miVentana.moveTo(0, 0);
+                miVentana.resizeTo(cambioAncho, cambioAlto);
+                miVentana.focus();
+            }else{
+                alert("No hay ventana abierta.")
+            }
+        }
+    </script>
+</head>
+<body onload="focos()">
+    <h1>Cambiar foco con ventana emergente.</h1>
+    <div>
+        <input type="button" id="crearVentana" value="Crear ventana">
+        <input type="button" id="cerrarVentana" value="Cerrar ventana">
+        <input type="button" id="cambiarFoco" value="Cambiar foco">
+    </div>
+</body>
+</html>

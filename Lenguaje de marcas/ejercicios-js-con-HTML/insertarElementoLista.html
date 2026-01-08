@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir elemento a lista</title>
+    <script>
+        function funcion(){
+            let nuevoElemento=document.createElement("li");
+            let nuevoElementoTexto=document.createTextNode("Lenguaje de Marcas.");
+            nuevoElemento.appendChild(nuevoElementoTexto);
+            let segundoElemento=document.getElementsByTagName("li")[1];
+            let elementoPadre=document.getElementsByTagName("ul")[0];
+            elementoPadre.insertBefore(nuevoElemento, segundoElemento);
+        }
+    </script>
+</head>
+<body onload="funcion()">
+    <h1>Listado de ejemplo:</h1>
+    <ul>
+        <li>Programación.</li>
+        <li>Bases de datos.</li>
+        <li>Sistemas informáticos.</li>
+    </ul>
+</body>
+</html>

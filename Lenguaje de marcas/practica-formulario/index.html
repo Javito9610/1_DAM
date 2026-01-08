@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Formulario</title>
+    <style>
+        .datos1{ background-color: rgba(153, 183, 226, 0.556);}
+        .datosPersonales {border-collapse: collapse ; background-color: aliceblue;}
+        .negrita {border: 1px solid black;}
+        .acceso1{background-color: rgba(226, 153, 153, 0.556);}
+        .formaDeAcceso{border-collapse: collapse; background-color: aliceblue;}
+        .negrita2{border: 1px solid black;}
+        .lista1{list-style-type: none;}
+        .lista2{list-style-type: none;}
+        .lista21{display: inline; margin-right: 10px;}
+        .lista23{display: inline; margin-right: 10px;}
+        .lista25{display: inline; margin-right: 10px;}
+        .documentos1{background-color: rgba(207, 36, 36, 0.588);}
+        .documentosAdjuntos{border-collapse: collapse; background-color: aliceblue;}
+        .negrita3{border: 1px solid black;}
+
+        
+    </style>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1 text>HOJA DE INCRIPCIÓN </br> EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+    </header>   
+    </br>
+    <main>
+        <form method="post" action="">
+            <fieldset class="datos1">
+                <legend>
+                    <table class="datosPersonales">
+                        <tr>
+                        <td class="negrita"><strong>Datos Personales</strong></td>
+                        </tr>
+                    </table>
+                </legend>
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre</label></td>
+                        <td><label for="apellidos">Apellidos</label></td>
+                        <td><label for="DNI">DNI</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text" name="nombre" placeholder="Carlos" required/></td>
+                        <td><input type="text" name="apellidos" placeholder="Vidal" required/></td></td>
+                        <td><input type="text" name="DNI" placeholder="00000000-Y" maxlength="9" required/></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="localidad">Localidad</label></td>
+                        <td><label for="provincia">Provincia</label></td>
+                        <td><label for="fecha de nacimiento">Fecha de nacimiento</label></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text" name="localidad" placeholder="Pedraza" required/></td>
+                        <td><input type="text" name="provincia" placeholder="Segovia" required/></td></td>
+                        <td><input type="date" name="fecha de nacimiento" placeholder="00000000-Y" maxlength="9" required/></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><label for="direccion">Dirección</label></td>
+                        <td><label for="codigo postal">Código Postal</label></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><input type="text" name="direccion" placeholder="Calle Castillo 73" required/></td>
+                        <td><input type="number" name="codigo postal" placeholder="40410"required/></td>
+                    </tr>
+                </table>
+            </fieldset>
+            
+
+            <fieldset class="acceso1">
+                <legend>
+                    <table class="formaDeAcceso">
+                        <tr>
+                        <td class="negrita2"><strong>Forma de acceso</strong></td>
+                        </tr>
+                    </table>
+                </legend>
+                <ul class="lista1">
+                    <li>
+                        <input type="radio" name="tipo" value="direct"/>Direct
+                        <ul class="lista2">
+                            <li class="lista21"><input type="radio" name="estudio" value="Bach-LOGSE-Modalidad"/>Bachillerato LOGSE. Modalidad<input type="text" name="TextoLogse" placeholder="Titulación" required class="bachLogse"/></li>
+                            <li class="lista22"><input type="radio" name="estudio" value="Bach-Experimental"/>Bachillerato Experimental</li>
+                            <li class="lista23"><input type="radio" name="estudio" value="COU-Opcion"/>COU. Opción</li><input type="text" name="TextoCou" placeholder="Titulación" required class="cou"/>
+                            <li class="lista24"><input type="radio" name="estudio" value="FP2"/>FP2</li>
+                            <li class="lista25"><input type="radio" name="estudio" value="Otros"/>Otros. Especifique</li><input type="text" name="TextoOtros" placeholder="Titulación" required class="otros"/>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="radio" name="tipo" value="libre"/>Prueba libre
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset class="documentos1">
+                <legend>
+                    <table class="documentosAdjuntos">
+                        <tr>
+                            <td class="negrita3"><strong>Documentos adjuntos</strong></td>
+                        </tr>
+                    </table>
+                </legend>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="adjuntos" value="fotocopiaDni"/> Fotocopia DNI</td>
+                        <td><input type="checkbox" name="adjuntos" value="certificadoAcademico"/> Certificado académico</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" name="adjuntos" value="otrosDocumentos"/> Otros documentos (especifique)</td> 
+                        <td><input type="text" name="otrosDoc" placeholder="ESO" required/></td> 
+                    </tr>
+                </table>
+            </fieldset>
+            </br>
+            <input type="submit" value="Enviar"/>
+            </br></br>
+            <input type="reset" value="Borrar">
+        </form>
+    </main>
+</body>
+</html>

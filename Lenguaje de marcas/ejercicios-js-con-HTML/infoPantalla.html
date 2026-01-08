@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos pantalla</title>
+    <script>
+        let datosPantalla=screen;
+        let conjuntoDatos="";
+        for(let propiedad in datosPantalla){
+            conjuntoDatos+=`${propiedad}: ${datosPantalla[propiedad]}\n`;
+        }
+        function obtenerInfo(){
+            document.getElementById("info").textContent=conjuntoDatos;
+        }
+
+    </script>
+</head>
+<body onload="obtenerInfo()">
+    <h1>Datos de pantalla:</h1>
+    <pre id="info"></pre>
+</body>
+</html>

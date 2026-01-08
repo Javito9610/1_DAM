@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crear y modelar texto</title>
+    <script>
+        function plasmar(){
+            document.getElementById("ejemplo1").textContent="Primer ejemplo.";
+            document.getElementById("ejemplo2").textContent="Segundo ejemplo.";
+            document.getElementById("ejemplo3").textContent="Tercer ejemplo.";
+            document.getElementById("ejemplo4").textContent="Cuarto ejemplo";
+
+            document.getElementById("ejemplo1").style.color="blue";
+            document.getElementById("ejemplo1").style.fontStyle="italic";
+            document.getElementById("ejemplo1").style.fontSize="22px"
+
+            document.getElementById("ejemplo2").style.color="red";
+            document.getElementById("ejemplo2").style.fontWeight="bold";
+            document.getElementById("ejemplo2").style.fontSize="42px";
+            document.getElementById("ejemplo2").style.textDecoration="underline";
+
+            document.getElementById("ejemplo3").style.color="grey";
+            document.getElementById("ejemplo3").style.textAlign="center";
+            document.getElementById("ejemplo3").style.fontSize="23px";
+            document.getElementById("ejemplo3").style.textDecoration="underline";
+        
+            document.getElementById("ejemplo4").style.color="green";
+            document.getElementById("ejemplo4").style.fontWeight="bold";
+            document.getElementById("ejemplo4").style.fontSize="52px";
+            document.getElementById("ejemplo4").style.textTransform="uppercase";
+        
+        }
+    </script>
+</head>
+<body onload="plasmar()">
+    <h1>EJEMPLOS DE CREACIÓN Y EDICIÓN DE TEXTO:</h1>
+    <div id="ejemplo1"></div>
+    <div id="ejemplo2"></div>
+    <div id="ejemplo3"></div>
+    <div id="ejemplo4"></div>
+</body>
+</html>

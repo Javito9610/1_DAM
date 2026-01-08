@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceder a el pais</title>
+    <script>
+        let elPais;
+        function abrirPais(){
+            elPais=window.open("https://elpais.com","","width=800, height=600");
+        }
+
+        
+        function boton(){
+            document.getElementById("accederPais").onclick=abrirPais;
+            document.getElementById("noAcceder").addEventListener("click",function(){
+                document.getElementById("respuestaNoAcceder").textContent="Venga, pues adiós."
+                setTimeout(function() {
+                window.close(); // Cierra la página después de 3 segundos
+                }, 1000);
+            })
+        }
+    </script>
+</head>
+<body onload="boton()">
+    <h1>Acceder al periódico El País:</h1>
+    <input type="button" id="accederPais" value="Acceder">
+    <input type="button" id="noAcceder" value="No acceder">
+    <h3 id="respuestaNoAcceder"></h3>
+</body>
+</html>

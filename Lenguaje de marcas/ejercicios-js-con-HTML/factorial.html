@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factorial</title>
+</head>
+<body>
+    <h1>Estamos haciendo un ejercicio de nombramiento de funciones</h1>
+    <br>
+    <p id="resultado"></p>
+    <script>
+        let factorizacion=function(m){
+            let resultado = 1;
+            for(let n = 1; n<=m; n++){
+                resultado*=n;
+            };
+            return resultado;
+        };
+        factorizacion(10);
+        document.getElementById("resultado").textContent="El factorial de diez es:"+" "+factorizacion(10);
+    </script>
+</body>
+</html>

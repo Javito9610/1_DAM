@@ -1,0 +1,395 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Página-1" id="4gBTiKop8mKtCt62vcFi">
+    <mxGraphModel dx="2920" dy="2926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-1" target="Tf9AMOV4IA3UOx4sadVz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-1" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&quot;Presente su nombre y un genero&quot;;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;String nombre;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;String genero;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-8" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&quot;Género no válido, vuelve a probar&quot;;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-19" target="Tf9AMOV4IA3UOx4sadVz-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="380" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.124;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-19" target="Tf9AMOV4IA3UOx4sadVz-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-15" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;else&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-16" target="Tf9AMOV4IA3UOx4sadVz-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-16" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&quot;Elija un pokemon inicial:\n&lt;/font&gt;&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;1.Bulbasur.\n&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2.Charmander.\n&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;3.Squirtle&quot;&lt;/font&gt;;&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="540" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-18" value="&lt;br&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;genero.equalsIgnoreCase(&quot;femenino&quot;)&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="440" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.342;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Tf9AMOV4IA3UOx4sadVz-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="301" y="414" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="301" y="410" />
+              <mxPoint x="300" y="410" />
+              <mxPoint x="300" y="478" />
+              <mxPoint x="570" y="478" />
+              <mxPoint x="570" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-19" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;if/else-if/else&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;(genero)&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="310" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-20" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;genero.equalsIgnoreCase(&quot;masculino&quot;)&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-23" target="Tf9AMOV4IA3UOx4sadVz-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-23" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&quot;Elija un pokemon inicial&quot;:&lt;/font&gt;&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;1.Chikorita.\n&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 10px;&quot;&gt;2.Cyndaquil.\n&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;3.Totodile.&lt;/font&gt;;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="545" width="170" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.9999999999998" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-26" value="String pokemonElegido;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="750" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-29" target="Tf9AMOV4IA3UOx4sadVz-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-29" value="&quot;¡APARECE UN POKEMON SALVAJE!&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-31" target="Tf9AMOV4IA3UOx4sadVz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-31" value="String pokemon salvaje=&quot;Desconocido&quot;;&lt;div&gt;int vidaPokemonSalvaje=25;&lt;/div&gt;&lt;div&gt;int ataquePokemonSalvaje=12;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="153.75" y="1340" width="222.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-33" target="Tf9AMOV4IA3UOx4sadVz-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-33" value="&quot;¡TU POKEMON ACABA DE ATACAR AL POKEMON SALVAJE!&quot;;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1490" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-35" target="Tf9AMOV4IA3UOx4sadVz-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-35" value="vidaPokemonSalvaje-=ataquePokemon;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1590" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-40" target="Tf9AMOV4IA3UOx4sadVz-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-40" target="Tf9AMOV4IA3UOx4sadVz-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.375;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-40" target="Tf9AMOV4IA3UOx4sadVz-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-40" target="Tf9AMOV4IA3UOx4sadVz-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-40" target="Tf9AMOV4IA3UOx4sadVz-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-40" target="Tf9AMOV4IA3UOx4sadVz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-40" target="Tf9AMOV4IA3UOx4sadVz-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="873" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-40" value="switch-case&lt;div&gt;(pokemonElegido)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-41" target="Tf9AMOV4IA3UOx4sadVz-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-95" y="1170" />
+              <mxPoint x="265" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-41" value="int vidaPokemon=25;&lt;div&gt;int ataquePokemon=10;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-42" target="Tf9AMOV4IA3UOx4sadVz-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="1100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="55" y="1170" />
+              <mxPoint x="265" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-42" value="int vidaPokemon=32;&lt;div&gt;int ataquePokemon=8;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-43" target="Tf9AMOV4IA3UOx4sadVz-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1170" />
+              <mxPoint x="265" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-43" value="int vidapokemon=19;&lt;div&gt;int ataquePokemon=13;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="1170" />
+              <mxPoint x="271" y="1170" />
+              <mxPoint x="271" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-44" value="int vidaPokemon=17;&lt;div&gt;int ataquePokemon=11;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="495" y="1170" />
+              <mxPoint x="271" y="1170" />
+              <mxPoint x="271" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-45" value="int vidaPokemon=23;&lt;div&gt;int ataquePokemon=7;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="635" y="1170" />
+              <mxPoint x="271" y="1170" />
+              <mxPoint x="271" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-46" value="int vidaPokemon=36;&lt;div&gt;int ataquePokemon=18;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="774" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-54" value="&quot;POKEMON DESCONOCIDO. VUELVA A INTENTARLO&quot;;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="830" width="133" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-56" value="&quot;Bulbasur&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-57" value="&quot;Charmander&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-58" value="&quot;Squirtle&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="930" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-59" value="&quot;Chikorita&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="930" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-60" value="&quot;Cyndaquil&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="930" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-61" value="&quot;Totodile&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-69" target="Tf9AMOV4IA3UOx4sadVz-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-69" value="&quot;¿QUIERES UTILIZAR POKEBALL PARA CAPTURARLO?&quot;;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1612.5" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-71" target="Tf9AMOV4IA3UOx4sadVz-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-71" target="Tf9AMOV4IA3UOx4sadVz-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-71" value="boolean capturarPokemon" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1739" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-74" target="Tf9AMOV4IA3UOx4sadVz-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="1980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-74" target="Tf9AMOV4IA3UOx4sadVz-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-74" value="vidaPokemonsalvaje&amp;lt;(25/2)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1900" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-76" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="376.25" y="1819" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-78" target="Tf9AMOV4IA3UOx4sadVz-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-78" value="&quot;ENEMIGO CAPTURADO. FIN DEL COMBATE&quot;;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-80" value="SI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2030" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-81" value="FIN&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bvertical-align%3A%20inherit%3B%26quot%3B%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bvertical-align%3A%20inherit%3B%26quot%3B%26gt%3B%26quot%3BElija%20un%20pokemon%20inicial%26quot%3B%3B%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22shape%3Ddocument%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BboundedLbl%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-100%22%20y%3D%22545%22%20width%3D%22120%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-82" target="Tf9AMOV4IA3UOx4sadVz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-82" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.567;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-85" target="Tf9AMOV4IA3UOx4sadVz-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-85" value="&quot;¡¡SE HA ESCAPADO!!&quot;;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1940" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-87" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1940" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-89" target="Tf9AMOV4IA3UOx4sadVz-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-89" value="&quot;¡¡¡NOS VA A ATACARRRR!!!&quot;;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-91" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1785" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-92" target="Tf9AMOV4IA3UOx4sadVz-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-92" value="vidaPokemon-=ataquePokemonSalvaje;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="1440" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-94" value="&quot;¡¡¡PREPARATE QUE NOS TOCA ATACAR!!!&quot;;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-97" target="Tf9AMOV4IA3UOx4sadVz-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-97" target="Tf9AMOV4IA3UOx4sadVz-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="2260" as="targetPoint" />
+            <mxPoint x="555" y="1739" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="623" y="1760" />
+              <mxPoint x="20" y="1760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-97" value="vidapokemonsalvaje&amp;lt;=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="1607.5" width="175" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-105" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-106" target="Tf9AMOV4IA3UOx4sadVz-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-106" value="&quot;ENHORABUENA LO DERROTASTE&quot;;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="2270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-108" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-91" target="Tf9AMOV4IA3UOx4sadVz-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-111" target="Tf9AMOV4IA3UOx4sadVz-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tf9AMOV4IA3UOx4sadVz-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="2180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="955" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-111" value="vidaPokemon&amp;lt;=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1425" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-114" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-116" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Tf9AMOV4IA3UOx4sadVz-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="2610" as="targetPoint" />
+            <mxPoint x="1480" y="2230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="881" y="2230" />
+              <mxPoint x="881" y="2560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tf9AMOV4IA3UOx4sadVz-117" value="&quot;LO SIENTO, TE DERROTARON&quot;;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="2180" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear y borrar ventana</title>
+    <script>
+        function ventana(){
+            document.getElementById("crearVentana").onclick=creaVentana
+            document.getElementById("borrarVentana").onclick=borraVentana
+        }
+        let miVentana;
+        function creaVentana(){
+            miVentana=window.open("https://institutosnebrija.blackboard.com/ultra/institution-page","","height=600")
+        }
+        function borraVentana(){
+            miVentana.close();
+        }
+    </script>
+</head>
+<body onload="ventana()">
+    <h1><strong>¿Quiere crear una nueva ventana?</strong></h1>
+    <br>
+    
+        <form>
+            <p>
+                <input type="button" id="crearVentana" value="Crear nueva ventana">
+                <input type="button" id="borrarVentana" value="Borrar la ventana">
+            </p>
+        </form>
+    
+</body>
+</html>

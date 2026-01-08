@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info navegador</title>
+    <script>
+        function obtenerInfo(){
+            let navegadorInfo= navigator;
+            let conjuntoPropiedad="";
+            for(let propiedad in navegadorInfo){
+                conjuntoPropiedad+=`${propiedad}: ${navegadorInfo[propiedad]}\n`
+            }
+            return conjuntoPropiedad;
+        }
+        function obtenerInfoHtml(){
+            document.getElementById("info").textContent=obtenerInfo();
+        }
+    </script>
+</head>
+<body onload="obtenerInfoHtml()">
+ <h1>Propiedades del navegador:</h1>
+ <pre id="info"></pre>   
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero de formularios.</title>
+    <script>
+        function funcion(){
+            let formularios=document.forms;
+            let miNumeroFormularios=document.getElementById("numeroFormularios");
+            miNumeroFormularios.addEventListener("click",function(){
+                alert(`Hay ${formularios.length} formularios.`)
+            });
+    }
+    </script>
+</head>
+<body onload ="funcion()">
+    <h1>Formularios:</h1>
+    <form id="formulario1">
+        <input type="text" id="nombre" value="nombre">
+        <input type="text" id="apellidos" value="apellidos">
+        <input type="submit" id="enviar1" value="enviar">
+    </form>
+    <br>
+    <form id="formulario2">
+        <input type="text" id="calle" value="calle">
+        <input type="text" id="ciudad" value="ciudad">
+        <input type="submit" id="enviar2" value="enviar">
+    </form>
+    <br>
+    <input type="button" id="numeroFormularios" value="Número de formularios">
+</body>
+</html>

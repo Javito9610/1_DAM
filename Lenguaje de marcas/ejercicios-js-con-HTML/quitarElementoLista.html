@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quitar elemento</title>
+    <script>
+        function funcion(){
+            let elementoEliminar=document.getElementsByTagName("li")[1];
+            let elementoPadre=document.getElementsByTagName("ul")[0];
+            elementoPadre.removeChild(elementoEliminar);
+        }
+    </script>
+</head>
+<body onload="funcion()">
+    <ul>
+        <li>Programación</li>
+        <li>Bases de datos</li>
+        <li>Sistemas informáticos</li>
+    </ul>
+</body>
+</html>

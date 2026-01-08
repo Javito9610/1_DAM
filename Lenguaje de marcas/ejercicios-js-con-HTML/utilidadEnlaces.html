@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces JS</title>
+        <script>
+            function colorAzul(){
+                let cambioAzul=document.getElementById("azul");
+                cambioAzul.addEventListener("click", function(){
+                    document.getElementById("cambioo").style.color="blue";
+                })
+            }
+            function colorRojo(){
+                let cambioRojo=document.getElementById("rojo");
+                cambioRojo.addEventListener("click", function(){
+                    document.getElementById("cambioo").style.color="red";
+                })
+            }
+        </script>
+</head>
+<body>
+    <h1>Utilizaremos enlaces para cambiar de color el siguiente texto:</h1>
+    <br>
+    <h2 id="cambioo">Cambiame de color...</h2>
+    <a href="javascript: colorAzul()" id="azul">Cambiar a color azul</a>
+    <a href="javascript: colorRojo()" id="rojo">Cambiar a color rojo</a>
+</body>
+</html>
